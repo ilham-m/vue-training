@@ -1,6 +1,6 @@
 <template lang="">
   <div>
-    <b-modal id="modal-detail-person" ref="modal-detail-person" title="modal-detail-person" ok-only>
+    <b-modal id="modal-detail-person" ref="modal-detail-person" title="modal detail person" ok-only>
       <dl>
         <dt>Name</dt>
         <dd>{{person.name}}</dd>
@@ -14,16 +14,16 @@
 </template>
 <script>
 export default {
-  props:{
+  props: {
     person: Object
   },
   data() {
     return {
-      
+
     }
   },
   methods: {
-   
+
   },
 }
 </script>

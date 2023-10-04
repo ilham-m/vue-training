@@ -1,6 +1,6 @@
 <template lang="">
   <div>
-    <b-modal id="modal-input-person" title="modal-input-person" ref="modal-input-person">
+    <b-modal id="modal-input-person" title="input person" ref="modal-input-person">
       <b-form>
         <b-form-group id="input-group-name" label="Name" label-for="name">
           <b-form-input id="name" type="text" placeholder="name" v-validate="{ required: true }" :state="validateState('name')" v-model="form.name" data-vv-name="name"></b-form-input>
